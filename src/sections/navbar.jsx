@@ -46,7 +46,7 @@ const Navbar = () => {
             <button className='cursor-pointer block md:hidden' onClick={handlemenuclick}><img src={menuopen} alt="Menu" className='w-7' id="imagetaoggle2" /></button>
             <div className='bg-white mt-5 shadow-md absolute hidden flex-col right-0 md:right-60' id='menutoggle'>
 
-              <div className="flex items-center gap-10 text-nd p-5 justify-center md:hidden">
+              <div className="flex items-center gap-5 text-nd p-5 justify-center md:hidden">
                 <a href="" className='hover:text-[#387ED1]'>Signup</a>
                 <a href="" className='hover:text-[#387ED1]'>About</a>
                 <a href="" className='hover:text-[#387ED1]'>Products</a>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <a href="" className='hover:text-[#387ED1]'>Support</a>
               </div>
 
-              <div className='menu1 md:flex flex-row gap-1 md:gap-30 md:p-5'>
+              <div className='menu1 md:flex flex-row gap-1 md:gap-30 md:p-5 my-10 md:my-0'>
 
                 <div className="platforms">
                   <img src={kiteLogo} alt="kiteLogo" className='w-15' />
